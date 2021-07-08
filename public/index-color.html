@@ -709,30 +709,6 @@ http://www.templatemo.com/tm-500-fluid-gallery
           gallery: { enabled: true },
         })
 
-        /* Gallery Two pop up
-                -----------------------------------------*/
-        $('.gallery-two').magnificPopup({
-          delegate: 'a',
-          type: 'image',
-          gallery: { enabled: true },
-        })
-
-        /* Gallery Three pop up
-                -----------------------------------------*/
-        $('.gallery-three').magnificPopup({
-          delegate: 'a',
-          type: 'image',
-          gallery: { enabled: true },
-        })
-
-        /* Collapse menu after click 
-                -----------------------------------------*/
-        $('#tmNavbar a').click(function () {
-          $('#tmNavbar').collapse('hide')
-
-          adjustHeightOfPage($(this).data('no')) // Adjust page height
-        })
-
         /* Browser resized 
                 -----------------------------------------*/
         $(window).resize(function () {
