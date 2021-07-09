@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+
+.images {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 5px;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
