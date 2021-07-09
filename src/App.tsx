@@ -1,24 +1,16 @@
 import React from 'react'
 import './App.css'
-import logo from './logo.svg'
 
 function App() {
   return (
     <div className='App'>
-      <header className='App-header'>
-        <img src={logo} className='App-logo' alt='logo' />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className='App-link'
-          href='https://reactjs.org'
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          Learn React
-        </a>
-      </header>
+      {Array.from(Array(44).keys()).map(key => (
+        <img
+          key={key}
+          alt={`${key}`}
+          src={`img/915 Urban${('0' + (key + 1)).slice(-2)}.jpg`}
+        />
+      ))}
     </div>
   )
 }
