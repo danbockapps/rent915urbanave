@@ -38,6 +38,10 @@ const App: FC = () => {
         parking for two cars.
       </p>
 
+      <p style={{ textAlign: 'center' }}>
+        <a href='mailto:rent915urbanave@danbock.net'>rent915urbanave@danbock.net</a>
+      </p>
+
       <div className='images'>
         {Array.from(Array(numPics).keys()).map(key => (
           <img
