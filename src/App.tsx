@@ -12,7 +12,13 @@ const App: FC = () => {
 
   return (
     <div className='App'>
-      <h1>House for rent: 915 Urban Ave., Durham, NC 27701</h1>
+      <h1>
+        House For Rent
+        <br />
+        915 Urban Ave.
+        <br />
+        Durham, NC 27701
+      </h1>
 
       <ul>
         <li>3 bd</li>

@@ -25,10 +25,33 @@ ul {
 
 li {
   list-style-type: none;
-  border-right: 1px #ddd solid;
-  padding: 5px;
+  border-right: 2px #ddd solid;
+  padding: 3vmin;
+  font-size: 5vmin;
 }
 
 li:last-child {
   border-right: none;
+}
+
+h1 {
+  font-size: 7vmin;
+  margin: 3vmin;
+}
+
+p {
+  text-align: start;
+  margin: 3vmin 3vmin 5vmin;
+  font-size: 5vmin;
+}
+
+@media screen and (min-width: 1000px) {
+  li,
+  p {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
 }
