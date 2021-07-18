@@ -25,7 +25,7 @@ const App: FC = () => {
         <li>2 ba</li>
         <li>1,699 sqft</li>
         <li>Unfurnished</li>
-        <li>$2,300/month</li>
+        <li>$2,200/month</li>
         <li>Available August 7, 2021</li>
       </ul>
 
