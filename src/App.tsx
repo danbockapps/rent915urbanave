@@ -43,14 +43,17 @@ const App: FC = () => {
       </p>
 
       <div className='images'>
-        {Array.from(Array(numPics).keys()).map(key => (
-          <img
-            key={key}
-            alt={`${key}`}
-            src={`img/915 Urban${('0' + (key + 1)).slice(-2)}.jpg`}
-            loading='lazy'
-          />
-        ))}
+        <>
+          <img alt='map' src='img/map.jpg' />
+          {Array.from(Array(numPics).keys()).map(key => (
+            <img
+              key={key}
+              alt={`${key}`}
+              src={`img/915 Urban${('0' + (key + 1)).slice(-2)}.jpg`}
+              loading='lazy'
+            />
+          ))}
+        </>
       </div>
     </div>
   )
